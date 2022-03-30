@@ -5,7 +5,7 @@ rule "Offer for Diamond"
 	when 
 		productObject: Product(type=="diamond")
 	then
-		productObject.setDiscount(10);
+		productObject.setDiscount(40);
 	end
 rule "Offer for Gold"
 	when 
