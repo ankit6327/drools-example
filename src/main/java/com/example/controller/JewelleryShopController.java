@@ -21,7 +21,7 @@ public class JewelleryShopController {
 
 	@RequestMapping(value = "/getDiscount", method = RequestMethod.GET, produces = "application/json")
 	public Product getQuestions(@RequestParam(required = true) String type) {
-
+		System.out.println("=================================================");
 		Product product = new Product();
 		product.setType(type);
 
